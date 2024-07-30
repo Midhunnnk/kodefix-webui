@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(assets/fonts/sohne.otf) format('opentype');
+    /* Add other formats if you have them (e.g., woff, woff2) */
+  }
+
+
+  
+
+  body {
+    font-family: 'CustomFont';
+  
+  }
